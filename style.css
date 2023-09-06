@@ -1,0 +1,223 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+  }
+  .top-block {
+    background-color: lightseagreen;
+    padding: 10px 50px;
+    position: sticky;
+    top: 0px;
+    /* display: inline-block; */
+    
+    
+  }
+  
+    article nav  ul li{
+    /* background-color: red; */
+     display:  inline-block;
+     margin-left: 80px; 
+
+     
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: orchid;
+    font-size: 20px;
+    padding: 20px 20px;
+    text-align: center;
+  }
+  nav ul li a:hover {
+    border-bottom: 1px solid orangered;
+  }
+  header {
+    background-image: linear-gradient(to bottom right,yellow,rgb(153,253,3),rgba(207,250,142,0.972));
+    padding: 30px 50px;
+    height: 300px;
+  }
+ header article{
+  display: inline-block;
+  /* background-color: red; */
+ }
+ .info-block {
+  position:relative;
+  top: -40px;
+  left:150px;
+  /* background-position: center; */
+}
+ .info-block div {
+  font-size: 28px;
+  font-variant:small-caps;
+  color:white;
+ }
+ .My-image {
+  background-image: url("/image/IMG_20210711_073006.jpg");
+  height: 200px;
+  width: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 40px;
+  position: relative;
+  left: 500px;
+  bottom: 20px;
+  /* top: 40px; */
+ }
+ .obj-block {
+  padding: 50px 150px;
+  box-shadow: 0px 10px 10px 2px rgba(128, 128, 128, 0.291);
+  background-color: yellowgreen;
+ }
+.obj-block h2{
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 48px;
+  color: green;
+  }
+  .obj-block p{
+    font-size: 24px;
+    text-align: center;
+  }
+   .skills-block{
+    padding: 100px 80px;
+    background-color: lightcoral;
+  } 
+  .skills-block h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 48px;
+    color: green;
+  }
+
+  .card{
+    display: inline-block;
+    /* padding: 5px 5px; */
+    margin-left: 140px;
+  }
+  .card :hover{
+    box-shadow: 0px 0px 10px 1px rgba(128, 128, 128, 0.8);
+  }
+  .card h3{
+    font-size: 32px;
+    margin-bottom: 10px;
+    color:  purple ;
+  }
+  .card div{
+    font-size: 24px;
+    margin: 5px 0px;
+    padding: 0px 0px;
+    border-left: 3px solid rgb(0, 255, 149);
+  }
+  .card div:hover{
+background-color: crimson;
+  }
+ .skills-block{
+  padding: 100px 80px;
+  box-shadow: 0px 10px 10px 2px rgba(128, 128, 128, 0.291);
+ }
+ .edu-block{
+  padding: 10px 80px;
+  background-color: aquamarine;
+ }
+ .edu-block h2{
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 48px;
+  color: green;
+ }
+ .edu{
+  display: inline-block;
+  /* padding: 10px 20px; */
+  margin-left: 30px;
+ }
+ .edu:hover{
+  box-shadow: 0px 0px 10px 1px rgba(128, 128 ,128, 0.8);
+ }
+ .edu h4{
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: rgb(119,176,34);
+ }
+ .edu p{
+  font-size: 20px;
+  margin: 5px 0px;
+  padding: 5px 5px;
+ }
+ .edu p:hover{
+  background-color: rgb(0, 255, 149);
+ }
+ .edu-block{
+  box-shadow: 0px 10px 10px 2px rgba(128, 128, 128, 0.291);
+ }
+ .exp{
+  box-shadow: 0px 10px 10px 2px rgba(128, 128, 128, 0.291);
+  padding: 10px;
+  background-color: lightsalmon;
+ }
+ .exp h2{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 48px;
+  color: green;
+ }
+ .exp div{
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin: 20px 0px;
+  padding: 5px 5px;
+  text-align: center;
+ }
+ .exp div:hover{
+  background-color:rgb(0, 255, 149);
+  box-shadow: 0px 10px 10px 2px rgba(128, 128, 128, 0.291);
+  border-left: 3px solid rgb(0, 255, 149);
+ }
+ .ach-block{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: yellow;
+
+ }
+ .ach-block h2{
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 48px;
+  color: green;
+ }
+ .ach-block h4{
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: rgb(3,47,49);
+  text-align: center;
+
+ }
+ 
+ .achieve:hover{
+  box-shadow: solid blue;
+ }
+ .ach-block div{
+  font-size: 30px;
+  margin: 5px 0px;
+  padding: 5px 10px;
+ }
+ .ach-block p:hover{
+  background-color: chocolate
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
